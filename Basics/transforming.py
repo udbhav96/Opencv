@@ -26,4 +26,7 @@ cv.imshow('Rotated' , rotated)
 # Resizing 
 resize = cv.resize(img , (500,500) , interpolation=cv.INTER_CUBIC) 
 cv.imshow('Resize', resize)
+#Filpping
+flip = cv.flip(img , 0)
+cv.imshow('Flip' , flip)
 cv.waitKey(0)
